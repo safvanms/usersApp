@@ -60,8 +60,9 @@ export default function Header({ userInfo, page }) {
 
   const styles = {
     pro_pic: {
-      width: '80px',
+      width: '100px',
       borderRadius: '50%',
+      marginBottom:"5px"
     },
   }
 
