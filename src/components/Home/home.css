@@ -1,0 +1,85 @@
+.landing-page-bg {
+  position: relative;
+}
+
+.profile-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 26%;
+  width: 650px;
+  box-shadow: rgba(90, 90, 93, 0.2) 0px 7px 29px 0px;
+  border-radius: 30px;
+}
+
+.users-list-header {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #f6f6f6;
+  z-index: 1;
+  border-radius: 30px 30px 0px 0px;
+
+}
+
+.users-list-header h3 {
+  margin: 40px ;
+  font-size: 21px;
+  color: #545454;
+}
+
+.users {
+  background-color: #fff;
+  overflow: scroll;
+height: 340px;
+border-radius: 0px 0px 30px 30px;
+}
+
+
+.users::-webkit-scrollbar {
+  width: 6px;
+}
+
+.users::-webkit-scrollbar-thumb {
+  background-color: #d8d5d5;
+  border-radius: 4px;
+}
+
+.users-list {
+  margin: 3px 25px 3px 25px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.users>:hover {
+background-color:#eae8e8a0 ;
+border-radius: 4px;
+}
+
+.user-avatar {
+  width: 38px;
+  border-radius: 50px;
+}
+
+.users-list p {
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #545454;
+  font-weight: 500;
+}
+
+.line {
+  display: block;
+  height: 1px;
+  background-color: #ece8e8;
+  margin-inline: 30px;
+}

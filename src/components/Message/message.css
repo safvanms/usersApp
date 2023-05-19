@@ -1,0 +1,97 @@
+.message-bar {
+  width: 200px;
+  height: 40px;
+  background-color: #3d56c8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-radius: 4px 4px 0px 0px;
+  padding-inline: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.expanded-chat {
+  height: 350px;
+  background-color: #fdfdfd;
+  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  border: 1px solid #3d56c8;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.other-users{
+  height: 320px;
+     overflow: scroll;
+}
+
+.message-bar span:hover{
+     background-color: #bbbb;
+border-radius: 2px;
+}
+
+.other-users::-webkit-scrollbar {
+  width: 6px;
+}
+
+.other-users::-webkit-scrollbar-thumb {
+  background-color: #d8d5d5;
+  border-radius: 4px;
+}
+
+.message-head {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.message-head p {
+  font-size: 14px;
+
+}
+
+.chat-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.chat-list div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-list:hover {
+background-color: #bbbbbb42;
+}
+
+.chat-list img {
+  width: 30px;
+  border-radius: 50px;
+}
+
+.chat-list p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.chat-list span {
+  margin-right: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #cccc;
+}
+
+.chat-window {
+  position: absolute;
+  bottom: 0;
+  right: 260px;
+}

@@ -1,0 +1,35 @@
+.emptyPages-container{
+     position: relative;
+  font-family: 'Montserrat';
+     
+}
+
+.header-container {
+  display: flex;
+  padding: 70px;
+}
+.header-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.empty-msg {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.empty-msg h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #bbbbbb74;
+}
+
+.chat-section {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}

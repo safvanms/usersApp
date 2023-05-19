@@ -1,0 +1,34 @@
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 50px;
+  border-bottom: 1px solid #cccc;
+  padding: 10px 0px 10px 0px;
+}
+
+.profile-header p{
+font-size: 15px;
+font-weight: 600;
+color: #545454;
+}
+
+.user-name-section  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.user-name-section:hover {
+  background-color:#f6f6f6;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.user-name-section p{
+     font-size: 15px;
+     font-weight: 100;
+     color: #545454;
+}
